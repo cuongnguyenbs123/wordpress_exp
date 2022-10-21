@@ -1,0 +1,68 @@
+/*
+Theme Name: customtheme
+Author: cuongnd1
+Author URI: https://www.google.com.vn/
+Version: 1.0
+ */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #545454;
+}
+
+a:link, a:visited {
+    color: #4285f4;
+}
+
+p {
+    line-height: 1.7em;
+}
+
+div.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+article.post {
+    border-bottom: 4px dashed #ecf0f1;
+}
+
+article.post:last-of-type {
+    border-bottom: none;
+}
+
+.site-header {
+    border-bottom: 3px solid #ecf0f1;
+}
+
+.site-footer {
+    border-top: 3px solid #ecf0f1;
+}
+
+.widget .search-form {
+    position: relative;
+}
+
+.widget .search-form input {
+    width: 100%;
+    border: 1px solid #9d9d9d;
+    padding: 10px 15px;
+    padding-right: 55px;
+    font-size: 14px;
+}
+
+.widget .search-form button {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    top: 0;
+    border: none;
+    width: 50px;
+    padding-top: 5px;
+    color: #b7b7b7;
+    background-color: transparent;
+    cursor: pointer;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
